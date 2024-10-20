@@ -21,7 +21,7 @@ QuestLearn is an innovative educational platform designed to make learning inter
 
    ```bash
    fork the repo
-   git clone https://github.com/krishnendu-2003/ElectionBuddy
+   git clone https://github.com/krishnendu-2003/QuizVerse
    cd client
    ```
 2. **Install Dependencies**
@@ -31,7 +31,7 @@ QuestLearn is an innovative educational platform designed to make learning inter
    ```
 3. **Set Up Environment Variables**
 
-   Create a `.env` file in the root directory and add your MetaMask private key:
+   Create a `.env` file in the root directory of server folder and add your MetaMask private key:
 
    ```env
    ACCOUNT_PRIVATE_KEY='your-private-key'
@@ -64,7 +64,7 @@ QuestLearn is an innovative educational platform designed to make learning inter
 
 ## Smart Contract ABI
 
-Ensure that the ABI is correctly configured in your frontend application. Example ABI is available in `src/abi/VotingContract.json`.
+Ensure that the ABI is correctly configured in your frontend application. Example ABI is available in `src/abi/RewardContract.json`.
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request if you have suggestions or improvements.
@@ -84,7 +84,7 @@ After `npm start `
 
 <!-- ![1st image](https://github.com/krishnendu-2003/QuestLearn/blob/main/1.png) -->
 
-Complete modules may look like
+<!-- Complete modules may look like -->
 
 <!-- ![2nd image](https://github.com/krishnendu-2003/QuestLearn/blob/main/2.png) -->
 
