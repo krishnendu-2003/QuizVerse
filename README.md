@@ -1,12 +1,12 @@
 # QuizVerse
 
-Here’s a sample README for my project named as QuestLearn:
+Here’s a sample README for my project named as QUIZVERSE:
 
 ---
 
 # Description
 
-QuestLearn is an innovative educational platform designed to make learning interactive and rewarding. It integrates blockchain technology with a traditional learning experience, allowing users to log in securely using your wallet. Once logged in, users can explore various courses on topics like blockchain, finance, and technology in form of quizzes. As users progress through the courses, they answer questions that test their knowledge. Each correct answer boosts their progress, and upon completing a course, they earn digital badges. What sets QuestLearn apart is the ability to claim rewards for achievements in form of badges and certificates. This blend of learning, achievement tracking, and blockchain rewards creates a unique and engaging educational experience.
+QUIZVERSE is an innovative educational platform designed to make learning interactive and rewarding. It integrates blockchain technology with a traditional learning experience, allowing users to log in securely using your wallet. Once logged in, users can explore various courses on topics like blockchain, finance, and technology in form of quizzes. As users progress through the courses, they answer questions that test their knowledge. Each correct answer boosts their progress, and upon completing a course, they earn digital badges. What sets QUIZVERSE apart is the ability to claim rewards for achievements in form of badges and certificates. This blend of learning, achievement tracking, and blockchain rewards creates a unique and engaging educational experience.
 
 ## Getting Started
 
