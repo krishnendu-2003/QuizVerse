@@ -1,38 +1,113 @@
-.App {
+html, body {
+  font-family: 'Orbitron', sans-serif;
+  color: #00d4ff; 
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  
+}
+
+@media (max-width: 768px) {
+  .login-page {
+    background-size: 'contain';
+  }
+}
+
+
+.course-page {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(145deg, #0f0f0f, #1a1a1a); 
+  box-sizing: border-box; 
+}
+
+.question-section, .rewards-section {
+  width: 20%;
+  padding: 20px;
+  background-color: #121212; 
+  box-shadow: 2px 0 15px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  box-sizing: border-box; 
+}
+
+.detail-section {
+  flex-grow: 1;
+  padding: 40px;
+  background: linear-gradient(145deg, #1a1a1a, #0f0f0f); 
+  color: #00ff9d; 
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+h2, h3 {
+  color: #00ff9d;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1f1f1f;
+  border: 2px solid #00d4ff;
+  color: #00d4ff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #00d4ff;
+  color: #0f0f0f;
+}
+
+.progress-container {
+  margin-top: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.progress-bar {
+  margin-top: 20px;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.progress {
+  height: 100%;
+  width: calc(var(--progress) * 1%);
+  background-color: #00ff9d;
+  box-shadow: 0px 0px 15px rgba(0, 255, 157, 0.5);
+}
+.progress-fill {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.3s;
+}
+
+
+.badges {
+  margin-top: 20px;
+}
+
+.badge {
+  background-color: #1f1f1f;
+  border: 2px solid #00d4ff;
+  color: #00d4ff;
+  padding: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 212, 255, 0.5);
+}
+
+
+@media (max-width: 1024px) {
+  .question-section, .rewards-section {
+    width: 25%; 
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .detail-section {
+    padding: 20px; 
   }
 }
